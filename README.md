@@ -1,15 +1,17 @@
-# Contribution [#]: [Issue Title]
+# Contribution [1]: Contact Form Submission - Suggestion (Problem Solution - 2007 - Pairs (ID: ioi-07-pairs))
 
-**Contribution Number:** [1 / 2 / 3]  
-**Student:** [Your Name]  
-**Issue:** [GitHub issue link]  
-**Status:** [Phase I / Phase II / Phase III / Phase IV] [In Progress / Complete]
+**Contribution Number:** [1]  
+**Student:** Angelie Bautista 
+**Issue:** [\[GitHub issue link\] ](https://github.com/cpinitiative/usaco-guide/issues/5867) 
+**Status:** [Phase I] [In Progress]
 
 ---
 
 ## Why I Chose This Issue
 
-[1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
+I chose issue 5867 "Contact Form Submission - Suggestion (Problem Solution - 2007 - Pairs (ID: ioi-07-pairs))", due to my familiarity with Javascript and Typescript. I believe I can learn MDX within a reasonable time and contributing to this project will widen my tech skills for websites. The issue is marked as a good first issue and the maintainer is active. Additionally, my job goals align with USACO's mission to support computing education for high schoolers through competitions and well-documented guides. I hope to understand how USACO organizes their learning material and communicates with each other in order to apply it to my future endeavors.
+
+The issue is a suggestion to move 2007 - Pairs into the Prefix Sum section. In the issue thread, the maintainer agreed to the change. Ultimately, my contribution will improve topic organization for 2007 - Pairs.
 
 ---
 
