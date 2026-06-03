@@ -1,8 +1,8 @@
 # Contribution [1]: Contact Form Submission - Suggestion (Problem Solution - 2007 - Pairs (ID: ioi-07-pairs))
 
 **Contribution Number:** [1]  
-**Student:** Angelie Bautista 
-**Issue:** [\[GitHub issue link\] ](https://github.com/cpinitiative/usaco-guide/issues/5867) 
+**Student:** Angelie Bautista  
+**Issue:** [\[GitHub issue link\] ](https://github.com/cpinitiative/usaco-guide/issues/5867)  
 **Status:** [Phase I] [In Progress]
 
 ---
