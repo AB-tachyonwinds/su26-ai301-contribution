@@ -19,19 +19,20 @@ The issue is a suggestion to move 2007 - Pairs into the Prefix Sum section. In t
 
 ### Problem Description
 
-[In your own words, what's broken or missing?]
+"Pairs" from the 2007 problem set could appear in a Silver module on Prefix Sums or a related Prefix Sum module with the user's solution. This change is classified as an enhancement for the site and is not a bug fix.
+
 
 ### Expected Behavior
 
-[What should happen?]
+The "Pairs" problem would appear in a problem list for "More on Prefix Sums", as it applies 2D prefix sums. Alternatively, it can appear in a Platinum section related to prefix sums.
 
 ### Current Behavior
 
-[What actually happens?]
+"Pairs" is currently only directly referenced to a Platinum module on 2D Range Queries, as seen at the top of the user solution page (https://usaco.guide/problems/ioi-07-pairs/user-solutions).
 
 ### Affected Components
 
-[Which parts of the codebase are involved?]
+Relevant components fo are located inside the /content directory. The most relevant module .mdx file would be 3_Silver/More_Prefix_Sums.mdx.
 
 ---
 
@@ -39,7 +40,9 @@ The issue is a suggestion to move 2007 - Pairs into the Prefix Sum section. In t
 
 ### Environment Setup
 
-[Notes on setting up your local development environment - challenges you faced, how you solved them]
+USACO Guide supports an online live editor, but I chose to test the site locally using yarn.
+
+Working branch: https://github.com/AB-tachyonwinds/usaco-guide
 
 ### Steps to Reproduce
 
