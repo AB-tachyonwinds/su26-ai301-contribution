@@ -3,7 +3,7 @@
 **Contribution Number:** [1]  
 **Student:** Angelie Bautista  
 **Issue:** [\[GitHub issue link\] ](https://github.com/cpinitiative/usaco-guide/issues/5867)  
-**Status:** [Phase I] [In Progress]
+**Status:** [Phase II] [In Progress]
 
 ---
 
@@ -19,7 +19,7 @@ The issue is a suggestion to move 2007 - Pairs into the Prefix Sum section. In t
 
 ### Problem Description
 
-"Pairs" from the 2007 problem set could appear in a Silver module on Prefix Sums or a related Prefix Sum module with the user's solution. This change is classified as an enhancement for the site and is not a bug fix.
+"Pairs" from the 2007 problem set could appear in a Silver module on Prefix Sums or a related Prefix Sum module with the user's solution. This change is classified as an enhancement for the site.
 
 
 ### Expected Behavior
@@ -52,6 +52,8 @@ View the most relevant existing module for Prefix Sums:
 
 ### Reproduction Evidence
 
+Branch:
+https://github.com/AB-tachyonwinds/usaco-guide/tree/fix-issue-5867
 - **Screenshots/logs:** ![topview](images/usersolutions-topview.png)
 Current text signifying modules referencing the Pairs problem. We want Prefix Sum to appear here.
 ![problem list](images/more-prefix-sum-problemlist.png)
@@ -64,30 +66,29 @@ Current problem list of More Prefix Sums in Silver
 
 ### Analysis
 
-[Your analysis of the root cause - what's causing the issue?]
+To add problems to the More Prefix Sums module, we must edit the More_Prefix_Sums.problems.json file.
 
 ### Proposed Solution
 
-[High-level description of your fix approach]
+Inside the "cum2" section of More_Prefix_Sums.problems.json, we must add an entry that includes uniqueId, name, url, source, difficulty, isStarred, tags, and solution metadata. Because a uniqueId already exists for Pairs due to be mentioned in 2D Range Queries, we will reference the uniqueId from 2DRQ.problems.json.
 
 ### Implementation Plan
 
 Using UMPIRE framework (adapted):
 
-**Understand:** [Restate the problem]
+**Understand:** The 2007 problem "Pairs" can be added to the Prefix Sums section. The More on Prefix Sums is the most appropriate existing module due to the submitter's proposed solution using 2D prefix sum.
 
-**Match:** [What similar patterns/solutions exist in the codebase?]
+**Match:** Other modules have a similar mdx and json structure that we can reference.
 
-**Plan:** [Step-by-step implementation plan]
-1. [Modify file X to do Y]
-2. [Add function Z]
-3. [Update tests]
+**Plan:** 
+1. Modify More_Prefix_Sums.problems.json and match the format to add Pairs to cum2 (problem list ID representing cumulative sums for 2D).
+2. Run the site locally to check for changes in http://localhost:3000/silver/more-prefix-sums and http://localhost:3000/problems/ioi-07-pairs/user-solutions
 
-**Implement:** [Link to your branch/commits as you work]
+**Implement:** https://github.com/AB-tachyonwinds/usaco-guide/tree/fix-issue-5867
 
-**Review:** [Self-review checklist - does it follow the project's contribution guidelines?]
+**Review:** Will review the Contributing module (includes Contributing, Adding Solutions, Introducing Modules, and working with MDX)
 
-**Evaluate:** [How will you verify it works?]
+**Evaluate:** Will run the site locally through Yarn and check all sections that reference Pairs for intended behavior.
 
 ---
 
