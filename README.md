@@ -52,8 +52,10 @@ View the most relevant existing module for Prefix Sums:
 
 ### Reproduction Evidence
 
-- **Screenshots/logs:** ![Text signifying modules referenced for the Pairs problem](images/usersolutions-topview.png)
-![Problem list of More Prefix Sums in Silver](images/more-prefix-sum-problemlist.png)
+- **Screenshots/logs:** ![topview](images/usersolutions-topview.png)
+Current text signifying modules referencing the Pairs problem. We want Prefix Sum to appear here.
+![problem list](images/more-prefix-sum-problemlist.png)
+Current problem list of More Prefix Sums in Silver
 - **My findings:** A module is largely made up of its mdx file and a corresponding json file specifically for the problem list.
 
 ---
