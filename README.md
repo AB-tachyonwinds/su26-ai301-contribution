@@ -40,21 +40,21 @@ Relevant components fo are located inside the /content directory. The most relev
 
 ### Environment Setup
 
-USACO Guide supports an online live editor, but I chose to test the site locally using yarn.
+USACO Guide supports an online live editor, but I chose to test the site locally using Yarn as written in the Contribution Guide. Had it running in 20 minutes and my only issue was admin access for corepack enable, which is a required tool for managing package managers like Yarn.
 
 Working branch: https://github.com/AB-tachyonwinds/usaco-guide
 
 ### Steps to Reproduce
-
-1. [Step 1]
-2. [Step 2]
-3. [Observed result]
+View the most relevant existing module for Prefix Sums:
+1. Navigate to http://localhost:3000/silver/more-prefix-sums
+2. Scroll down to Problems section after Solution for Forest Queries 
+3. Pairs could potentially be added to that table as a Hard (or Very Hard) question
 
 ### Reproduction Evidence
 
-- **Commit showing reproduction:** [Link to commit in your fork]
-- **Screenshots/logs:** [If applicable]
-- **My findings:** [What you discovered during reproduction]
+- **Screenshots/logs:** ![Text signifying modules referenced for the Pairs problem](images/usersolutions-topview.png)
+![Problem list of More Prefix Sums in Silver](images/more-prefix-sum-problemlist.png)
+- **My findings:** A module is largely made up of its mdx file and a corresponding json file specifically for the problem list.
 
 ---
 
